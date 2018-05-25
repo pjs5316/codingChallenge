@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="FROM_GRADLE_MODEL" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.6.RELEASE/bbf3c8526fe37bb341507f28db17882d4348dbca/spring-context-4.2.6.RELEASE.jar" sourcepath="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.6.RELEASE/42938681af0f03512b8771cb1f0be49ff7fbfaa4/spring-context-4.2.6.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/719f05404ba8a9de1516398d31d9622042584f0d/spring-web-4.3.4.RELEASE.jar" sourcepath="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.4.RELEASE/ad08cd52a54c665d820e58f75a7147af13c407f/spring-web-4.3.4.RELEASE-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.4.BUILD-SNAPSHOT/a85a4390be21a8cce54468d5c0cb910edb0d1e7e/spring-boot-1.3.4.BUILD-SNAPSHOT.jar" sourcepath="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.4.BUILD-SNAPSHOT/1cab2fa1ee06df386ffec243cd061b4f9ab8a3d2/spring-boot-1.3.4.BUILD-SNAPSHOT-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.2.RELEASE/368e464f9ce4622722ce0944cc4ba6fa71332b68/spring-boot-autoconfigure-1.4.2.RELEASE.jar" sourcepath="C:/Users/psempl001c/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.2.RELEASE/3215d2d79a393b03fd4fca5e53c9f9dbb05ec10a/spring-boot-autoconfigure-1.4.2.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
