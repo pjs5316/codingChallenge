@@ -8,13 +8,7 @@ public class DataBase {
 
 	@Autowired
     JdbcTemplate jdbcTemplate;
-	
-	public void createTable(){
-		jdbcTemplate.execute("DROP TABLE messages IF EXISTS");
-        jdbcTemplate.execute("CREATE TABLE messages(" +
-                "id SERIAL, message_body VARCHAR(255)");
-	}
-	
+		
 	public void createRecord(String body){
         jdbcTemplate.update("INSERT INTO messages(message_body) VALUES (?)",body);   
 	}
